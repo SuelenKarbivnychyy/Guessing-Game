@@ -1,7 +1,7 @@
 import random
 from termcolor import colored
-# from color import colored
 from dictionary import list_of_words
+
 
 # introduction about the game
 
@@ -97,3 +97,4 @@ while play_again.startswith("Y"):
   else:  
     print()
     print(colored("Thanks for playing! Goodbye", "yellow")) 
+
